@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="style.css"></style>
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pixel Art</h1>
+    <div id="grid"></div>
+    <div id="settings">
+        <div id="color-settings">
+            <label for="pencil-color">Choose Color</label>
+            <input type="color" name="pencil-color" id="pencil-color">
+        </div>
+        <div id="grid-settings">
+            <label for="grid-size">Grid Size</label>
+            <input type="range" name="grid-size" id="grid-size" min="16" max="64" step="16" oninput="this.nextElementSibling.value = this.value">
+            <output>48</output>
+        </div>
+        <button id="reset-button">Clear</button>
+    </div>
+</body>
+</html>

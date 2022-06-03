@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+#grid {
+    display: grid;
+    width: 90vmin;
+    margin: auto;
+    border: 1px solid #bbb;
+}
+
+
+.pixel{
+}
+
+.pixel:hover{
+    background-color: black;
+}
