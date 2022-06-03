@@ -9,11 +9,3 @@ body {
     margin: auto;
     border: 1px solid #bbb;
 }
-
-
-.pixel{
-}
-
-.pixel:hover{
-    background-color: black;
-}
